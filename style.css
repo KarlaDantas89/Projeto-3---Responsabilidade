@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+                                                    /* Menu lado esquerdo */
+
+
+.logo {
+    color: #5D5D7D;
+    text-align: center;
+    width: 60vw;
+    display: inline-block;
+    font-size: 36px;
+    font-style: oblique;
+    background: rgba(93, 93, 125, 0.16);
+}
+
+
+.section-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 130px;
+    margin-top: 15%;
+}
+
+h1 {
+    color: #5D5D7D;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    width: 368px;
+}
+
+p {
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    opacity: 0.6;
+    text-align: justify;
+    margin: 25px 0;
+    width: 540px;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    background-color: #993399;
+}
+
+
+
+
+                                                    /* Menu direito */
+
+.container-right {
+    display: inline-block;
+    height: 100vh;
+    background-color: rgba(93, 93, 125, 0.16);
+    position: absolute;
+    top: 0;
+    width: 40%;
+}
+
+header {
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu {
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu:nth-child(2) {
+    opacity: 0.5;
+}
+
+.menu:hover {
+    color: black;
+}
+
+img {
+    width: 456px;
+    height: 561.95px;
+    position: relative;
+    top: 13%;
+    right: 120px;
+}
+
+
+
+                                                                    /* Responsividade */
+
+@media screen and (max-width: 850px) {
+
+                                     /* Menu lado esquerdo */
+    
+    .logo {
+        display: none;
+    }
+
+    .section-left {
+        display: block;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+       
+    }
+
+    h1 {
+        color: #5D5D7D;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+
+    }
+
+    p {
+        width: auto;
+        color: #5D5D7D;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px; 
+        margin: 30px 40px;
+    }
+
+    button {
+        width: 225px;
+        height: 55px;
+        font-size: 24px;
+        font-weight: 400;
+        display: block;
+        margin: 0 auto;
+    }
+
+    
+                                     /* Menu lado direito */
+    
+    header {
+        display: none;
+    }
+
+    .container-right {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        max-width: 80%;
+        position: static;
+    }
+
+    
+
+
+
+    
+}
+
+
+
+
+
